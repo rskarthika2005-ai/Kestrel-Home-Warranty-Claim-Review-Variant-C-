@@ -1,0 +1,39 @@
+factor,band,claims,frauds,fraud_rate_pct,ci95_low_pct,ci95_high_pct,lift_vs_overall
+amount_vs_price,<10%,269,7,2.6,1.27,5.27,2.06
+amount_vs_price,10-25%,4338,28,0.65,0.45,0.93,0.51
+amount_vs_price,25-50%,5130,29,0.57,0.39,0.81,0.45
+amount_vs_price,50-75%,1111,49,4.41,3.35,5.78,3.49
+amount_vs_price,75%+,298,28,9.4,6.58,13.24,7.43
+customer_prior_claims_band,0,8192,64,0.78,0.61,1.0,0.62
+customer_prior_claims_band,1,2501,45,1.8,1.35,2.4,1.42
+customer_prior_claims_band,2,406,22,5.42,3.61,8.07,4.28
+customer_prior_claims_band,3+,47,10,21.28,11.99,34.9,16.82
+days_since_purchase_band,0-30,680,8,1.18,0.6,2.3,0.93
+days_since_purchase_band,31-90,1570,24,1.53,1.03,2.26,1.21
+days_since_purchase_band,91-180,2443,39,1.6,1.17,2.17,1.26
+days_since_purchase_band,181-365,4839,60,1.24,0.96,1.59,0.98
+days_since_purchase_band,366+,1614,10,0.62,0.34,1.14,0.49
+photo_attached,N,2448,39,1.59,1.17,2.17,1.26
+photo_attached,Y,8698,102,1.17,0.97,1.42,0.92
+inspected_by_partner,N,1793,45,2.51,1.88,3.34,1.98
+inspected_by_partner,Y,9353,96,1.03,0.84,1.25,0.81
+partner_cohort,new (since Oct 2025),481,34,7.07,5.1,9.72,5.59
+partner_cohort,older,10665,107,1.0,0.83,1.21,0.79
+partner_type,authorised_service_centre,5127,52,1.01,0.77,1.33,0.8
+partner_type,franchise,3829,77,2.01,1.61,2.51,1.59
+partner_type,freelance_technician,2190,12,0.55,0.31,0.96,0.43
+family,Air Fryer,1590,20,1.26,0.82,1.93,1.0
+family,Ceiling Fan,1603,16,1.0,0.62,1.62,0.79
+family,Induction Cooktop,1589,20,1.26,0.82,1.94,1.0
+family,Mixer Grinder,1603,20,1.25,0.81,1.92,0.99
+family,Robot Vacuum,1621,27,1.67,1.15,2.41,1.32
+family,Room Heater,1592,15,0.94,0.57,1.55,0.74
+family,Water Purifier,1548,23,1.49,0.99,2.22,1.18
+source,crm,6540,95,1.45,1.19,1.77,1.15
+source,legacy_zoho,4606,46,1.0,0.75,1.33,0.79
+serial_fmt,clean,7797,100,1.28,1.06,1.56,1.01
+serial_fmt,hyphen,985,19,1.93,1.24,2.99,1.53
+serial_fmt,leading_space,1021,3,0.29,0.1,0.86,0.23
+serial_fmt,lowercase,1343,19,1.41,0.91,2.2,1.11
+period,before_May_2026,9724,105,1.08,0.89,1.31,0.85
+period,from_May_2026,1422,36,2.53,1.83,3.48,2.0
