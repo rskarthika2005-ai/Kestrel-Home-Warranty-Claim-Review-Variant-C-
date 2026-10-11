@@ -1,0 +1,10 @@
+partner_id,small_claims,frauds,city,partner_type,onboarded,new_partner,fraud_amount_inr,fraud_rate_pct
+SP3160,11,10,Pune,authorised_service_centre,2025-12-27,1,13469,90.9
+SP3232,10,7,Jaipur,authorised_service_centre,2025-11-26,1,12301,70.0
+SP3318,10,5,Hubballi,franchise,2025-12-06,1,7991,50.0
+SP3129,9,4,Chennai,authorised_service_centre,2026-01-19,1,3613,44.4
+SP3319,7,3,Warangal,franchise,2026-02-11,1,4636,42.9
+SP3118,2,2,Pune,authorised_service_centre,2026-06-03,1,3052,100.0
+SP3286,2,2,Mysuru,authorised_service_centre,2026-06-04,1,2190,100.0
+SP3121,3,1,Jaipur,franchise,2021-10-08,0,686,33.3
+SP3027,6,1,Pune,freelance_technician,2025-12-03,1,1319,16.7
