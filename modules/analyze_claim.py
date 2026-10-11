@@ -6,7 +6,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.stats import fisher_exact
-
 from modules.preprocess import build_training_table
 from source.config import OUTPUT_DIR, EVIDENCE_DIR, POLICY_CHANGE, SMALL_LIMIT, CAPACITY
 
