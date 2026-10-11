@@ -1,0 +1,93 @@
+{
+  "data_quality": {
+    "raw_rows": 12029,
+    "duplicate_claim_ids": 681,
+    "rows_after_dedupe": 11348,
+    "undecided_dropped": 202,
+    "labelled_rows": 11146,
+    "fraud_rows": 141
+  },
+  "fraud_rate_pct": {
+    "all": 1.27,
+    "before_May": 1.08,
+    "since_May": 2.53
+  },
+  "new_partner_idea": {
+    "all_period": {
+      "new_claims": 481,
+      "new_frauds": 34,
+      "new_rate_pct": 7.07,
+      "older_claims": 10665,
+      "older_frauds": 107,
+      "older_rate_pct": 1.0,
+      "rate_ratio": 7.0,
+      "fisher_p": 9e-17
+    },
+    "since_1_May_2026": {
+      "new_claims": 211,
+      "new_frauds": 34,
+      "new_rate_pct": 16.11,
+      "older_claims": 1211,
+      "older_frauds": 2,
+      "older_rate_pct": 0.17,
+      "rate_ratio": 97.6,
+      "fisher_p": 2.9e-27
+    },
+    "before_1_May_2026": {
+      "new_claims": 270,
+      "new_frauds": 0,
+      "new_rate_pct": 0.0,
+      "older_claims": 9454,
+      "older_frauds": 105,
+      "older_rate_pct": 1.11,
+      "rate_ratio": 0.0,
+      "fisher_p": 0.12
+    },
+    "inside_new_cohort_since_May": {
+      "active_new_outlets": 34,
+      "outlets_with_2plus_frauds": 5,
+      "share_of_new_partner_fraud_from_those": 0.85,
+      "verdict": "Concentrated in a few outlets - not the whole cohort"
+    }
+  },
+  "outlet_concentration": {
+    "before_1_May_2026": {
+      "frauds": 105,
+      "outlets_with_fraud": 41,
+      "top5_outlets_share": 0.5,
+      "top5": {
+        "SP3207": 13,
+        "SP3376": 12,
+        "SP3095": 10,
+        "SP3350": 9,
+        "SP3103": 9
+      }
+    },
+    "since_1_May_2026": {
+      "frauds": 36,
+      "outlets_with_fraud": 10,
+      "top5_outlets_share": 0.81,
+      "top5": {
+        "SP3160": 10,
+        "SP3232": 7,
+        "SP3318": 5,
+        "SP3129": 4,
+        "SP3319": 3
+      }
+    }
+  },
+  "failure_cases_june": {
+    "queue_size": 38,
+    "missed": 9,
+    "missed_amount_inr": 26962,
+    "missed_with_no_partner_history": 4,
+    "false_alarms": 25,
+    "false_alarm_partners": {
+      "SP3010": 3,
+      "SP3129": 3,
+      "SP3009": 3,
+      "SP3318": 2,
+      "SP3315": 2
+    }
+  }
+}
