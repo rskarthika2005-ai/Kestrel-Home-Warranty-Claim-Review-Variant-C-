@@ -1,0 +1,20 @@
+check,value,status,note
+Train rows (raw),12029,OK,
+Unique claims after dedupe,11348,OK,"681 resubmitted rows (5.7%) removed, first submission kept"
+Test rows,2252,OK,0 duplicate ids
+Test ids also present in train,0,OK,must be 0 (leakage)
+Undecided outcomes (blank),202,OK,excluded from training
+Legacy Zoho rows labelled 0,4560,OK,may include undecided cases stored as 0 (cannot be separated) - label-noise risk
+"Fraud rate, decided claims",1.27%,OK,"141 of 11,146 - 'approve all' already scores 98.7% accuracy"
+Partners missing from partners.csv (train/test),0/0,OK,
+SKUs missing from products.csv (train/test),0/0,OK,
+Zero/negative amounts or days,0,OK,
+Claims before partner onboarding (train/test),0/0,OK,
+Claims beyond warranty period (train/test),0/0,OK,none - warranty mismatch is NOT a fraud signal in this data
+Serials typed with space/hyphen/lowercase,30%,OK,normalised before use; format itself is not a fraud signal
+"Claims >= Rs 2,000 uninspected since 1 May",27,ATTENTION,policy says larger claims still need inspection
+Inspector note without inspection sign-off,0,OK,
+Train period,01 Apr 2025 - 30 Jun 2026,OK,
+Test period,01 Jul 2026 - 30 Sep 2026,OK,test must be later than train (time-based validation)
+"Test claims auto-approved (small, uninspected)",77%,OK,test is almost entirely the post-policy regime
+Test partners with no decided history,14,OK,scored on behaviour only
