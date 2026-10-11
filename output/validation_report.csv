@@ -1,0 +1,22 @@
+split,description,model,train_claims,train_frauds,test_claims,test_frauds,queue_size,tn,fp,fn,tp,recall,precision,false_positive_rate,accuracy_top_k,accuracy_approve_all,inr_stopped_per_claim_checked,net_inr_per_claim_checked,best_possible_inr_per_claim,roc_auc,pr_auc,net_inr_ci90_low,net_inr_ci90_high
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",logreg,9724,105,1422,36,79,1307,79,36,0,0.0,0.0,0.057,0.9191,0.9747,0,-380,850,0.085,0.014,,
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",hgb,9724,105,1422,36,79,1307,79,36,0,0.0,0.0,0.057,0.9191,0.9747,0,-380,850,0.198,0.015,,
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",ENSEMBLE (final),9724,105,1422,36,79,1307,79,36,0,0.0,0.0,0.057,0.9191,0.9747,0,-380,850,0.084,0.014,-380.0,-380.0
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",random order,9724,105,1422,36,79,1310,76,33,3,0.083,0.038,0.0548,0.9233,0.9747,43,-323,850,0.536,0.032,,
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",rule: new partner,9724,105,1422,36,79,1317,69,26,10,0.278,0.127,0.0498,0.9332,0.9747,185,-147,850,0.884,0.141,,
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",rule: small uninspected claim,9724,105,1422,36,79,1309,77,34,2,0.056,0.025,0.0556,0.9219,0.9747,43,-327,850,0.637,0.041,,
+A,"train <=30 Apr 2026, test May-Jun 2026 (after the rule change)",rule: biggest amount first,9724,105,1422,36,79,1308,78,35,1,0.028,0.013,0.0563,0.9205,0.9747,226,-149,850,0.491,0.03,,
+B,"train <=31 May 2026, test Jun 2026",logreg,10433,119,713,22,38,664,27,11,11,0.5,0.289,0.0391,0.9467,0.9691,410,140,1202,0.926,0.37,,
+B,"train <=31 May 2026, test Jun 2026",hgb,10433,119,713,22,38,666,25,9,13,0.591,0.342,0.0362,0.9523,0.9691,493,243,1202,0.926,0.289,,
+B,"train <=31 May 2026, test Jun 2026",ENSEMBLE (final),10433,119,713,22,38,667,24,8,14,0.636,0.368,0.0347,0.9551,0.9691,524,284,1202,0.943,0.368,19.0,522.0
+B,"train <=31 May 2026, test Jun 2026",random order,10433,119,713,22,38,653,38,22,0,0.0,0.0,0.055,0.9158,0.9691,0,-380,1202,0.44,0.028,,
+B,"train <=31 May 2026, test Jun 2026",rule: new partner,10433,119,713,22,38,658,33,17,5,0.227,0.132,0.0478,0.9299,0.9691,186,-144,1202,0.882,0.156,,
+B,"train <=31 May 2026, test Jun 2026",rule: small uninspected claim,10433,119,713,22,38,654,37,21,1,0.045,0.026,0.0535,0.9187,0.9691,52,-318,1202,0.645,0.046,,
+B,"train <=31 May 2026, test Jun 2026",rule: biggest amount first,10433,119,713,22,38,654,37,21,1,0.045,0.026,0.0535,0.9187,0.9691,470,100,1202,0.461,0.05,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",logreg,6853,74,2871,31,157,2703,137,11,20,0.645,0.127,0.0482,0.9485,0.9892,966,634,1215,0.829,0.394,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",hgb,6853,74,2871,31,157,2702,138,12,19,0.613,0.121,0.0486,0.9478,0.9892,907,573,1215,0.856,0.604,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",ENSEMBLE (final),6853,74,2871,31,157,2703,137,11,20,0.645,0.127,0.0482,0.9485,0.9892,966,634,1215,0.831,0.609,210.0,1127.0
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",random order,6853,74,2871,31,157,2684,156,30,1,0.032,0.006,0.0549,0.9352,0.9892,28,-350,1215,0.527,0.012,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",rule: new partner,6853,74,2871,31,157,2683,157,31,0,0.0,0.0,0.0553,0.9345,0.9892,0,-380,1215,0.434,0.009,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",rule: small uninspected claim,6853,74,2871,31,157,2684,156,30,1,0.032,0.006,0.0549,0.9352,0.9892,115,-262,1215,0.558,0.014,,
+C,"train <=31 Dec 2025, test Jan-Apr 2026 (before the rule change)",rule: biggest amount first,6853,74,2871,31,157,2692,148,22,9,0.29,0.057,0.0521,0.9408,0.9892,775,417,1215,0.732,0.049,,
