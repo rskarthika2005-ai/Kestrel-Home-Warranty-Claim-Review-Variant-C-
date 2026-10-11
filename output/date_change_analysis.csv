@@ -1,0 +1,9 @@
+period,claim_size,partner_age,claims,frauds,fraud_rate_pct,ci95_low_pct,ci95_high_pct,lift_vs_overall
+before_May_2026,large_2000_plus,new_partner,104,0,0.0,0.0,3.56,0.0
+before_May_2026,large_2000_plus,older_partner,3686,73,1.98,1.58,2.48,1.57
+before_May_2026,small_under_2000,new_partner,166,0,0.0,0.0,2.26,0.0
+before_May_2026,small_under_2000,older_partner,5768,32,0.55,0.39,0.78,0.43
+from_May_2026,large_2000_plus,new_partner,50,0,0.0,0.0,7.14,0.0
+from_May_2026,large_2000_plus,older_partner,287,1,0.35,0.06,1.95,0.28
+from_May_2026,small_under_2000,new_partner,161,34,21.12,15.52,28.06,16.7
+from_May_2026,small_under_2000,older_partner,924,1,0.11,0.02,0.61,0.09
