@@ -1,0 +1,19 @@
+{
+  "version": "ens-v1",
+  "calibration": {
+    "a": 0.7660312861575754,
+    "b": -1.3896962231065366
+  },
+  "thr_high": 0.5547761595757446,
+  "thr_medium": 0.12421812367817679,
+  "hold_cost": 380,
+  "prior_rate": 0.013,
+  "stats": {
+    "base_rate": 0.012650278126682218,
+    "auto_fraud_rate": 0.03225806451612903,
+    "inspected_post_fraud_rate": 0.0032258064516129032,
+    "high_ratio_fraud_rate": 0.054648687012065295,
+    "low_ratio_fraud_rate": 0.006572866385950498,
+    "repeat2_fraud_rate": 0.0706401766004415
+  }
+}
